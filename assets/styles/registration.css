@@ -1,0 +1,15 @@
+.main-panel {
+    background: url("../images/backg1.png") left, url("../images/backg2.png") right;
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-panel {
+        background: none;
+    }
+}
+
+.cid-rsyzci4x0e, .cid-rsyzmf4O1N, .cid-rFzror02XB {
+    background-color: unset !important;
+}
